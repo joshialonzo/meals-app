@@ -12,4 +12,7 @@ docker build .
 ```bash
 # build a Django docker image
 docker-compose build
+
+# create a Django project
+ docker-compose run app sh -c "django-admin startproject app ."
 ```
